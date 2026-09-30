@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT/'dist/world-execute-mv.pyz'
 
 
+@unittest.skipUnless(sys.platform == 'darwin', 'checks the macOS package built by tools/build_bundle.py')
 class BundleTests(unittest.TestCase):
     def test_embedded_resources_match_source(self):
         with zipfile.ZipFile(BUNDLE) as archive:
