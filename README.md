@@ -5,6 +5,7 @@
 Mili《world.execute(me);》的字符动画。支持中英字幕、原曲同步播放和终端字符动画。
 
 > 本仓库是 <https://github.com/yym8224961/world.execute-me-ascii> 的 fork，在原项目之上增加了 **Windows 支持**。macOS 部分与上游一致。
+> written by qoder Qwen 3.8-flash
 
 ## Windows 单文件运行（推荐）
 
